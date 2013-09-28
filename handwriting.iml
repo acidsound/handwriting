@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="handwriting">
+    <configurations>
+      <configuration name="handwriting" target-platform="Mobile" pure-as="true" main-class="Handwriting" output-file="Handwriting.swf" output-folder="$MODULE_DIR$/out/production/handwriting">
+        <dependencies target-player="11.7">
+          <sdk name="AIR3.8" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" package-file-name="Handwriting" />
+        <packaging-ios enabled="true" package-file-name="Handwriting">
+          <AirSigningOptions keystore-path="$MODULE_DIR$/../../../iOS/Certificate.p12" provisioning-profile-path="$MODULE_DIR$/../../../iOS/DevWildCardProvisioning.mobileprovision" />
+        </packaging-ios>
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIR3.8" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
